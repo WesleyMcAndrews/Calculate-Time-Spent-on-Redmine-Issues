@@ -36,7 +36,7 @@
     <li>A google spreadsheet or MS-Excel. The example is a xlsx file from MS-Excel.</li>
   </ul>
 
-  <h2>SQL Code</h2>
+  <h2>SQL code to extract periods in atendance</h2>
   <pre>
     <code>
     sql
