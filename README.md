@@ -33,7 +33,8 @@
     <li>Compatible operating system (Windows, Linux, macOS)</li>
     <li>A instalation of Redmine with issues registered</li>
     <li>A Redmine database. The SQL example was created for a MySQL Database, but it could easily be converted to others DBMS</li>
-    <li>A google spreadsheet or MS-Excel. The example is a xlsx file from MS-Excel.</li>
+    <li>A google spreadsheet or MS-Excel. Follow the link to access a Google Sheet version:
+	https://docs.google.com/spreadsheets/d/1jnd_MkrZZ_OPoxpHUUUimYsbimICQzAtUsrXBhwpSRo/edit?usp=sharing</li>
   </ul>
 
   <h2>SQL code to extract periods in atendance</h2>
