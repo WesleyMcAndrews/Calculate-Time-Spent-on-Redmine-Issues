@@ -17,7 +17,7 @@
   <ol>
     <li>Download the solution and install the necessary dependencies.</li>
     <li>Configure the connection to the Redmine database. Make sure to provide the correct information, such as username, password, and database address.</li>
-	<li>Execute the SQL command to extract the information of the periods in which each task was in attendance. It is from these periods that the calculations will be made.</li>
+	<li>Execute the SQL command to extract the information of the periods in which each issue was in attendance. It is from these periods that the calculations will be made.</li>
 	<li>Import this data into a spreadsheet or your favorite BI tool. The example below uses MS-Excel. If you want to use PowerBI or QlikSense, ask me how.</li>
 	<li>In the spreadsheet example on the "raw data" tab, you will find two cells to configure a business day period (Start and end of working hours). You must to discount lunch time and any other break.</li>
 	<li>The last two columns contains the formula who calculate the number of hours between two datastamps (begin and end). One column show the decimal value and the other in hour:minute format. </li>
