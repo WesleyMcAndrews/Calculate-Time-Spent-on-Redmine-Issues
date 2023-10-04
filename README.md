@@ -39,7 +39,6 @@
   <h2>SQL code to extract periods in atendance</h2>
   <pre>
     <code>
-    sql
     Select i.id, i.parent_id, i.subject,
 	is2.name as status, u.login, sp.status_id as status_sprint, tempo.inicio, tempo.fim 
 	from redmine_sistemas.issues i
