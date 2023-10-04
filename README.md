@@ -73,6 +73,12 @@
     </code>
   </pre>
 
+  <p>The core of the spreadsheet is the funcion that calculates the working hours between begin and end periods. It consider only the business hours and disconsider the days at hollyday tab. The funcion code can be seen below:</p>
+ <pre> 
+  <code>
+=SE(OU($C$2<$B$2;J5<I5);0;(DIATRABALHOTOTAL(I5;J5;HolidayList)-(DIATRABALHOTOTAL(I5;I5;HolidayList)*SE(MOD(I5;1)>$C$2;1;(MÁXIMO($B$2;MOD(I5;1))-$B$2)/($C$2-$B$2)))-(DIATRABALHOTOTAL(J5;J5;HolidayList)*SE(MOD(J5;1)<$B$2;1;($C$2-MÍNIMO($C$2;MOD(J5;1)))/($C$2-$B$2))))*($C$2-$B$2)*24)
+  </code>
+</pre>		  
   <h2>Contribution</h2>
   <p>If you would like to contribute to this project, feel free to submit pull requests or report issues on the repository's issue page. Your contribution is highly appreciated!</p>
 
